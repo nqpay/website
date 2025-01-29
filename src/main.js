@@ -6,6 +6,7 @@ import App from './App.vue'
 import Home from './components/Home.vue'
 import PrivacyPolicy from './components/PrivacyPolicy.vue'
 import JoinForm from './components/JoinForm.vue'
+import Onboarding from './components/Onboarding.vue'
 
 const app = createApp(App)
 
@@ -14,6 +15,7 @@ const router = new createRouter({
   routes: [
     { path: '/', component: Home },
     { path: '/join', component: JoinForm },
+    { path: '/onboarding', component: Onboarding },
     { path: '/privacy-policy', component: PrivacyPolicy },
     { path: '/:pathMatch(.*)*', redirect: '/' },
   ],

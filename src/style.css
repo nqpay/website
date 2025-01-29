@@ -4,10 +4,10 @@
 
 @font-face {
   font-family: 'DIN-black';
-  src: url('../public/DINNextW1G-Black.otf');
+  src: url('../DINNextW1G-Black.otf');
 }
 
 @font-face {
   font-family: 'DIN-light';
-  src: url('../public/DINNextW1G-Light.otf');
+  src: url('../DINNextW1G-Light.otf');
 }

@@ -7,7 +7,7 @@
 
     <router-link
       to="/join"
-      class="absolute top-4 right-6 border border-1 border-[#BE37F3] text-[#BE37F3] px-4 py-2 rounded-md font-din-light text-sm hover:bg-opacity-90 transition-colors"
+      class="absolute top-4 right-6 border border-1 border-[#BE37F3] text-[#BE37F3] px-4 py-2 rounded-md font-din-light text-md hover:bg-opacity-90 transition-colors"
     >
       Soy un negocio
     </router-link>
