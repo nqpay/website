@@ -109,7 +109,7 @@ const nextStep = () => {
 
 const connectMP = () => {
   // Redirect to Mercado Pago OAuth
-  window.location.href = `https://auth.mercadopago.com.ar/authorization?client_id=7809670485638629&response_type=code&platform_id=mp&redirect_uri=https://nqpay.lat/onboarding`
+  window.location.href = `https://auth.mercadopago.com.ar/authorization?client_id=2535901472251628&response_type=code&platform_id=mp&redirect_uri=https://nqpay.lat/onboarding`
 }
 
 const handleMPCallback = async (onboardingID, code) => {
