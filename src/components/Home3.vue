@@ -46,6 +46,24 @@
       </div>
     </div>
 
+    <!-- Tercera sección -->
+    <div class="w-full py-16">
+      <div class="max-w-4xl mx-auto px-4 flex flex-col md:flex-row items-center">
+        <div class="flex flex-col gap-4 w-full md:w-1/2 md:pr-5 md:pl-10">
+          <h1 class="text-lg md:text-3xl font-semibold">Pasión por el cliente</h1>
+          <p class="text-lg">Cuando hay mucho movimiento, la dificultad de encontrar un mozo puede ser frustrante para tus clientes, especialmente cuando tienen hambre o sed.</p>
+          <p class="text-lg">
+            Con la solución integrada de pedidos y pagos por QR, permite que tus clientes pidan cuando lo deseen y que tu personal se centre en crear conexiones personales.
+          </p>
+        </div>
+        <div class="flex relative justify-center w-full md:w-1/2">
+          <div class="w-4/5 relative aspect-square flex justify-center overflow-hidden">
+            <img class="rounded-2xl absolute -bottom-5 w-full h-full object-contain" src="../assets/rating.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Call to action -->
     <div class="w-full py-16">
       <div class="w-full mx-auto flex items-center relative justify-center">
