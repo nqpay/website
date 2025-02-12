@@ -5,6 +5,7 @@ import './style.css'
 import App from './App.vue'
 import Home from './components/Home.vue'
 import PrivacyPolicy from './components/PrivacyPolicy.vue'
+import TermsAndServices from './components/TermsAndServices.vue'
 import JoinForm from './components/JoinForm.vue'
 import Onboarding from './components/Onboarding.vue'
 
@@ -17,6 +18,7 @@ const router = new createRouter({
     { path: '/join', component: JoinForm },
     { path: '/onboarding', component: Onboarding },
     { path: '/privacy-policy', component: PrivacyPolicy },
+    { path: '/terms-and-services', component: TermsAndServices },
     { path: '/:pathMatch(.*)*', redirect: '/' },
   ],
 })
