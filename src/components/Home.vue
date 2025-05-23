@@ -104,7 +104,7 @@ const buttonHover = ref(false)
 const home3Ref = ref(null)
 const isHome3Visible = ref(false)
 const words = {
-  line0: ['piden.', 'ordenan.', 'pagan.'],
+  line0: ['piden.', 'pagan.', 'retiran.'],
   line1: ['Aumenta', 'tus', 'ventas'],
   line2: ['Retene', 'a', 'tus', 'clientes'],
   line3: ['Toma', 'el', 'control'],
